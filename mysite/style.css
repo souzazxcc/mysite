@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-principal: rgb(6, 79, 151);;
+}
+
+body {
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    font-family: Outfit;
+}
+
+.myname {
+    color: white;
+    font-weight: 400;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+}
+
+button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: white;
+    gap: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.taman {
+    height: 1.3rem;
+}
+
+.direita {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-left: 90rem;
+    margin-top: -3.2rem;
+}
+
+h3 {
+    color: white;
+    margin-top: 12rem;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -1rem;
+    margin-left: 2rem;
+}
+
+#estrela {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 19rem;
+    margin-top: -6.85rem;
+}
+
+#estrela:hover {
+    transform: scale(1.2);
+}
+
+.verde {
+    background-color: rgb(39, 187, 39);
+    height: 0.3rem;
+    width: 5rem;
+    margin-left: 2.2rem;
+}
+
+p {
+    color: gray;
+    margin-left: 2.2rem;
+}
+
+.myimg {
+    height: 35rem;
+    margin-left: 70rem;
+    margin-top: -22rem;
+    border-radius: 20px;
+}
+
+#cnt {
+    height: 2.5rem;
+    width: 9rem;
+    background-color: rgb(53, 192, 127);
+    border-radius: 2px;
+    font-weight: 600;
+    color: #000;
+    margin-top: -12rem;
+    margin-left: 2.2rem;
+}
+
+#cnt:hover {
+    background-color: rgb(40, 146, 97);
+    transform: scale(1.05);
+}
+
+
+#oop {
+    height: 2.5rem;
+    width: 9rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-weight: 600;
+    color: #000;
+    margin-top: -2.5rem;
+    margin-left: 14rem;
+}
+
+#oop:hover {
+    background-color: rgb(196, 196, 196);
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+}
+
+#ht {
+    margin-top: 12rem;
+    margin-left: 8rem;
+}
+
+#htp {
+    margin-top: -4rem;
+}
+
+#cs {
+    margin-top: 11.8rem;
+    margin-left: 14rem;
+}
+
+#csp {
+    margin-top: -3.9rem;
+    margin-left: 6.7rem;
+}
+
+.htmll {
+    flex-direction: column;
+}
+
+.css {
+    flex-direction: column;
+}
